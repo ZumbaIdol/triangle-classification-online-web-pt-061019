@@ -7,7 +7,7 @@ class Triangle
   end
   
   def kind
-    if @side_one.length == @side_two.length && @side_one.length == @side_three.length
+    if @side_one.length && @side_two.length && @side_three.length.isEqual
       :equilateral
     end
   end
