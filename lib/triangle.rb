@@ -1,10 +1,8 @@
 class Triangle
   attr_accessor :equilateral, :isosceles, :scalene
   
-  def initialize(attributes)
-    attributes.each do |key, value| 
-      self.send(("#{key}="), value)
-    end
+  def initialize(side_one, side_two, side_three)
+    
   end
   
   def kind
