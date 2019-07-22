@@ -14,6 +14,7 @@ class Triangle
     else
       :scalene
     end
+  else
   end
   
   class TriangleError < StandardError
